@@ -1,0 +1,1 @@
+("~/" "c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/")

@@ -1,0 +1,60 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/lib/" . "open-uri/")
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/" . "open_uri_redirections-0.2.1/")
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/" . "gems/")
+ ("c:/Ruby21-x64/lib/ruby/gems/" . "2.1.0/")
+ ("c:/Ruby21-x64/lib/ruby/" . "gems/")
+ ("c:/Ruby21-x64/lib/" . "ruby/")
+ ("c:/" . "Ruby21-x64/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/lib/open-uri/"
+ "c:/Ruby21-x64/lib/ruby/2.1.0/"
+ "c:/Users/KCB/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "redirections_patch.rb"
+ "open-uri.rb"
+ "test.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/KCB/AppData/Roaming/" (21896 44214 0 0) "YmSoft/" "VOICEYE/" "Thunderbird/" "test.jsp" "Test.java~" "Test.java" "Subversion/" "Spark/" "SoftCamp/" "sb_tmp/" "Printmade2/" "Mozilla/" "Microsoft/" "Media Center Programs/" "mail" "Macromedia/" "JetBrains/" "Intel Corporation/" "Intel/" "InstallShield/" "inkscape/" "Identities/" "HNC/" "gnupg/" "frism/" "Console/" "ConEmu.xml" "cedet-1.1/" "Atom/" "Application Data/" "allcredit_problems.txt~" "allcredit_problems.txt" "AhnLab/" "Adobe/" ".ssh/" ".emacs~" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/KCB/" (21886 27841 0 0) "윈도우7 프린터 드라이브/" "시작 메뉴/" "_viminfo" "workspace/" "Videos/" "test.rb~" "test.rb" "Templates/" "svn/" "StudioProjects/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "open_uri.rb" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mercurial.ini" "Local Settings/" "Links/" "FrameBuilder/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "color-theme.el" "Application Data/" "AppData/" "allcredit/" ".gradle/" ".gitconfig" ".gem/" ".emacs~" ".emacs.d/" ".dbus-keyrings/" ".bash_history" ".atom/" ".AndroidStudio1.2/" ".android/" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/lib/open-uri/" (21886 25607 0 0) "redirections_patch.rb" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/lib/" (21886 25607 0 0) "open_uri_redirections.rb" "open_uri_redirections/" "open-uri/" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/" (21886 25607 0 0) "spec/" "README.md" "Rakefile" "open_uri_redirections.gemspec" "LICENSE.txt" "lib/" "Gemfile" ".travis.yml" ".gitignore" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/" (21886 25607 0 0) "test-unit-2.1.6.0/" "rubygems-update-2.4.8/" "rdoc-4.1.0/" "rake-10.1.0/" "open_uri_redirections-0.2.1/" "nokogiri-1.6.6.2-x64-mingw32/" "mini_portile-0.6.2/" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/gems/2.1.0/" (21886 24303 0 0) "specifications/" "gems/" "extensions/" "doc/" "cache/" "build_info/" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/gems/" (21886 24283 0 0) "2.1.0/" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/2.1.0/" (21886 24303 0 0) "yaml.rb" "yaml/" "xmlrpc.rb" "xmlrpc/" "x64-mingw32/" "win32ole/" "Win32API.rb" "win32/" "webrick.rb" "webrick/" "weakref.rb" "uri.rb" "uri/" "un.rb" "ubygems.rb" "tsort.rb" "tracer.rb" "tmpdir.rb" "tkwinpkg.rb" "tkvirtevent.rb" "tktext.rb" "tkscrollbox.rb" "tkpalette.rb" "tkmngfocus.rb" "tkmenubar.rb" "tkmacpkg.rb" "tkfont.rb" "tkextlib/" "tkentry.rb" "tkdialog.rb" "tkconsole.rb" "tkclass.rb" "tkcanvas.rb" "tkbgerror.rb" "tkafter.rb" "tk.rb" "tk/" "timeout.rb" "time.rb" "thwait.rb" "test/" "tempfile.rb" "tcltk.rb" "sync.rb" "socket.rb" "singleton.rb" "shellwords.rb" "shell.rb" "shell/" "set.rb" "securerandom.rb" "scanf.rb" "rubygems.rb" "rubygems/" "rss.rb" "rss/" "ripper.rb" "ripper/" "rinda/" "rexml/" "resolv.rb" "resolv-replace.rb" "remote-tk.rb" "rdoc.rb" "rdoc/" "rbconfig/" "rational.rb" "rake.rb" "rake/" "racc/" "psych.rb" "psych/" "pstore.rb" "profiler.rb" "profile.rb" "prime.rb" "prettyprint.rb" "pp.rb" "pathname.rb" "ostruct.rb" "optparse.rb" "optparse/" "openssl.rb" "openssl/" "open3.rb" "open-uri.rb" "observer.rb" "net/" "mutex_m.rb" "multi-tk.rb" "monitor.rb" "mkmf.rb" "minitest/" "matrix.rb" "matrix/" "mathn.rb" "logger.rb" "kconv.rb" "json.rb" "json/" "irb.rb" "irb/" "ipaddr.rb" "io/" "gserver.rb" "getoptlong.rb" "forwardable.rb" "find.rb" "fileutils.rb" "fiddle.rb" "fiddle/" "erb.rb" "English.rb" "e2mmap.rb" "drb.rb" "drb/" "dl.rb" "dl/" "digest.rb" "digest/" "delegate.rb" "debug.rb" "date.rb" "date/" "csv.rb" "complex.rb" "cmath.rb" "cgi.rb" "cgi/" "bigdecimal/" "benchmark.rb" "base64.rb" "abbrev.rb" "../" "./")
+
+ ("c:/Ruby21-x64/lib/ruby/" (21886 24283 0 0) "vendor_ruby/" "site_ruby/" "gems/" "2.1.0/" "../" "./")
+
+ ("c:/Ruby21-x64/lib/" (21886 24295 0 0) "tcltk/" "ruby/" "pkgconfig/" "libx64-msvcrt-ruby210.dll.a" "libx64-msvcrt-ruby210-static.a" "../" "./")
+
+ ("c:/Ruby21-x64/" (21886 24303 0 0) "unins000.exe" "unins000.dat" "share/" "lib/" "include/" "doc/" "bin/" "../" "./")
+
+ ("c:/Users/" (21305 10019 0 0) "Public/" "KCB/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+
+ ("c:/Users/KCB/AppData/" (21305 10020 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
