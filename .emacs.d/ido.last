@@ -13,6 +13,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/KCB/AppData/Roaming/"
  "c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/lib/open-uri/"
  "c:/Ruby21-x64/lib/ruby/2.1.0/"
  "c:/Users/KCB/"
@@ -20,6 +21,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".gitignore"
  "redirections_patch.rb"
  "open-uri.rb"
  "test.rb"
@@ -27,7 +29,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/KCB/AppData/Roaming/" (21896 44214 0 0) "YmSoft/" "VOICEYE/" "Thunderbird/" "test.jsp" "Test.java~" "Test.java" "Subversion/" "Spark/" "SoftCamp/" "sb_tmp/" "Printmade2/" "Mozilla/" "Microsoft/" "Media Center Programs/" "mail" "Macromedia/" "JetBrains/" "Intel Corporation/" "Intel/" "InstallShield/" "inkscape/" "Identities/" "HNC/" "gnupg/" "frism/" "Console/" "ConEmu.xml" "cedet-1.1/" "Atom/" "Application Data/" "allcredit_problems.txt~" "allcredit_problems.txt" "AhnLab/" "Adobe/" ".ssh/" ".emacs~" ".emacs.d/" ".emacs" "../" "./")
+ ("c:/Users/KCB/AppData/Roaming/" (21896 45216 0 0) "YmSoft/" "VOICEYE/" "Thunderbird/" "test.jsp" "Test.java~" "Test.java" "Subversion/" "Spark/" "SoftCamp/" "sb_tmp/" "Printmade2/" "Mozilla/" "Microsoft/" "Media Center Programs/" "mail" "Macromedia/" "JetBrains/" "Intel Corporation/" "Intel/" "InstallShield/" "inkscape/" "Identities/" "HNC/" "gnupg/" "frism/" "Console/" "ConEmu.xml" "cedet-1.1/" "Atom/" "Application Data/" "allcredit_problems.txt~" "allcredit_problems.txt" "AhnLab/" "Adobe/" ".ssh/" ".gitignore" ".git/" ".emacs~" ".emacs.d/" ".emacs" "../" "./")
 
  ("c:/Users/KCB/" (21886 27841 0 0) "윈도우7 프린터 드라이브/" "시작 메뉴/" "_viminfo" "workspace/" "Videos/" "test.rb~" "test.rb" "Templates/" "svn/" "StudioProjects/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "open_uri.rb" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mercurial.ini" "Local Settings/" "Links/" "FrameBuilder/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "color-theme.el" "Application Data/" "AppData/" "allcredit/" ".gradle/" ".gitconfig" ".gem/" ".emacs~" ".emacs.d/" ".dbus-keyrings/" ".bash_history" ".atom/" ".AndroidStudio1.2/" ".android/" "../" "./")
 

@@ -1,0 +1,60 @@
+emacs
+ls -altr
+git status
+ls -l
+cd ../
+git status
+ls
+./gradlew
+./gradlew assembleDebug
+ruby test.rb
+cd ../../
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby
+exit
+ruby --version
+ruby --version
+cd ../../
+ruby test.rb
+get install nokogiri
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb]
+ruby test.rb

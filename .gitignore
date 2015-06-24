@@ -1,5 +1,4 @@
 *
-!.emacs*
+!.emacs
 !.emacs.d/*
 !.gitignore
-*~
