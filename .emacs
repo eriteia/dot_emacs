@@ -1,17 +1,43 @@
+
 ;; MenuBar Toolbar
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (global-linum-mode 1)
+(desktop-save-mode 1)
 
 ;; Font
-(set-default-font "Bitstream Vera Sans Mono-9")
+(set-default-font "Bitstream Vera Sans Mono-10")
+
+;; Shell
+(setq shell-file-name "C:/MinGW/msys/1.0/bin/bash")
+(setq explicit-shell-file-name shell-file-name)
+(setenv "PATH"
+    (concat ".:/usr/local/bin:/mingw/bin:/bin:"
+        (replace-regexp-in-string " " "\\\\ "
+            (replace-regexp-in-string "\\\\" "/"
+                (replace-regexp-in-string "\\([A-Za-z]\\):" "/\\1"
+                                          (getenv "PATH"))))))
+
+(defun shell-msys ()
+  (interactive)
+  (let ((explicit-sh.exe-args '("--login" "-i")))
+    (shell-explicit "c:/MinGW/msys/1.0/bin/bash.exe" "Msys" ?/ nil)))
 
 ;; Hangul
 (custom-set-variables
  '(default-input-method "korean-hangul3f"))
 
+(prefer-coding-system 'utf-8)
+(setq default-input-method "korean-hangul3f")
+(setq default-korean-keyboard "3")
+;;(set-language-environment "Korean")
+;;(global-set-key (kbd "<kana>") 'toggle-input-method)
+;;(global-set-key (kbd "<S-kana>") 'toggle-input-method)
+;;(global-set-key (kbd "S-SPC") 'toggle-korean-input-method)
+
 ;; load path
 (add-to-list 'load-path "~/.emacs.d/color-theme")
+(add-to-list 'load-path "~/.emacs.d/auto-java-complete")
 
 ;; +++++++++++++++++++++++++++++++++++++++++++
 ;; Load el files
@@ -143,3 +169,35 @@ the current directory"
 ;; Ruby tools
 (require 'ruby-tools)
 
+;; javascript indent
+(setq js-indent-level 4)
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.jsp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
+
+(setq-default indent-tabs-mode nil)
+
+(defun my-web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-markup-indent-offset 2)
+)
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+
+
+;; Org-mode
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-cb" 'org-iswitchb)
+
+;;(add-to-list 'load-path "~/.emacs.d/org-mode/lisp")
+;;(add-to-list 'load-path "~/.emacs.d/org-mode/contrib" t)
+(add-to-list 'load-path "~/.emacs.d/org-reveal")
+
+;; ORG
+(require 'ox-reveal)
+(setq org-reveal-root "file:///c:/Users/swhong/git/reveal.js")
+(setq org-image-actual-width nil)
+
+;; Web beautify
+(load-file "~/.emacs.d/web-beautify.el")
