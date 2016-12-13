@@ -1,9 +1,13 @@
 
 ;; MenuBar Toolbar
-(menu-bar-mode -1)
+;(menu-bar-mode -1)
 (tool-bar-mode -1)
 (global-linum-mode 1)
 (desktop-save-mode 1)
+
+(require 'eshell)
+
+(setenv "JAVA_HOME" "/c/Program\ Files/Java/jdk1.8.0_77/bin")
 
 ;; Font
 (set-default-font "Bitstream Vera Sans Mono-10")
@@ -12,7 +16,7 @@
 (setq shell-file-name "C:/MinGW/msys/1.0/bin/bash")
 (setq explicit-shell-file-name shell-file-name)
 (setenv "PATH"
-    (concat ".:/usr/local/bin:/mingw/bin:/bin:"
+    (concat ".:/usr/local/bin:/mingw/bin:/bin:/c/Program\ Files/Java/jdk1.8.0_77/bin"
         (replace-regexp-in-string " " "\\\\ "
             (replace-regexp-in-string "\\\\" "/"
                 (replace-regexp-in-string "\\([A-Za-z]\\):" "/\\1"
@@ -25,7 +29,16 @@
 
 ;; Hangul
 (custom-set-variables
- '(default-input-method "korean-hangul3f"))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(indent-tabs-mode nil)
+ '(default-input-method "korean-hangul3f")
+ '(jdee-jdk (quote ("1.8.0")))
+ '(jdee-jdk-registry
+   (quote
+    (("1.8.0" . "C:\\Program Files (x86)\\Java\\jre1.8.0_66")))))
 
 (prefer-coding-system 'utf-8)
 (setq default-input-method "korean-hangul3f")
@@ -201,3 +214,9 @@ the current directory"
 
 ;; Web beautify
 (load-file "~/.emacs.d/web-beautify.el")
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

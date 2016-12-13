@@ -58,3 +58,20 @@ ruby test.rb
 ruby test.rb
 ruby test.rb]
 ruby test.rb
+java
+exit
+javac
+exit
+javac
+pwd
+cd git
+ls
+cd git
+cd ../../
+cd git
+ls
+cd Samsung
+ls -l
+clear
+javac Juice.java && java Juice juice.data
+exit

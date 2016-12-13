@@ -1,1 +1,1 @@
-("~/" "c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/")
+("~/" "c:/Users/swhong/git/reveal.js/" "d:/workspace/leetcode/" "d:/git/checkInstallApp.js/" "d:/git/logback_test/" "d:/git/LogbackTest/" "d:/git/rng/" "~/Tetris/" "c:/Users/swhong/git/Samsung/" "d:/git/url_shortner/" "~/org/" "c:/Users/swhong/Documents/Visual Studio 2015/Projects/AllcreditAntiTamper/" "d:/git/ws_nadf_old/" "d:/git/ws_nadf/" "c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/open_uri_redirections-0.2.1/")
